@@ -1,0 +1,118 @@
+{
+  "file_path": "/workspace/sample_ai_text.docx",
+  "text_sample": "Sample Document with AI-like Text Patterns\nThe utilization of modern technological frameworks is paramount in contemporary business environments. Furthermore, it is important to note that organization...",
+  "analysis": {
+    "total_chars": 1133,
+    "total_words": 138,
+    "total_sentences": 11,
+    "issues": [
+      {
+        "type": "repetitive_transitions",
+        "pattern": "(?:Furthermore|Moreover|Additionally|Subsequently|In addition|Likewise|Similarly)",
+        "count": 3,
+        "examples": [
+          "Furthermore",
+          "Additionally",
+          "Moreover"
+        ]
+      },
+      {
+        "type": "overly_formal",
+        "pattern": "\\b(?:utilize|leverage|paramount|crucial|notwithstanding|heretofore|hereinafter|pursuant to|in accordance with|endeavor|facilitate|amplify|diminish|augment|mitigate|cognizant)\\b",
+        "count": 8,
+        "examples": [
+          "paramount",
+          "leverage",
+          "Notwithstanding",
+          "endeavor",
+          "mitigate"
+        ]
+      },
+      {
+        "type": "generic_structure",
+        "pattern": "(?:Firstly|Secondly|Thirdly|First|Second|Third),",
+        "count": 3,
+        "examples": [
+          "First,",
+          "Second,",
+          "Third,"
+        ]
+      },
+      {
+        "type": "complex_word_usage",
+        "pattern": "\\b(?:utilize|leverage|paramount|crucial|notwithstanding|endeavor|facilitate|amplify|diminish|augment|mitigate|cognizant)\\b",
+        "count": 7,
+        "examples": [
+          "paramount",
+          "leverage",
+          "Notwithstanding",
+          "endeavor",
+          "mitigate"
+        ]
+      },
+      {
+        "type": "formulaic_phrases",
+        "pattern": "(?:on the other hand|in conclusion|in summary|it is important to note|it should be noted)",
+        "count": 4,
+        "examples": [
+          "it is important to note",
+          "In conclusion",
+          "On the other hand",
+          "it should be noted"
+        ]
+      },
+      {
+        "type": "repetitive_start",
+        "pattern": "^\\s*The\\s",
+        "count": 1,
+        "examples": [
+          "The "
+        ]
+      }
+    ],
+    "ai_probability": 100,
+    "suggestions": []
+  },
+  "suggestions": [
+    {
+      "issue": "Overly formal word: \"leverage\"",
+      "suggestion": "Replace \"leverage\" with simpler alternatives like \"use or take advantage of\"",
+      "type": "word_replacement"
+    },
+    {
+      "issue": "Overly formal word: \"paramount\"",
+      "suggestion": "Replace \"paramount\" with simpler alternatives like \"very important or crucial\"",
+      "type": "word_replacement"
+    },
+    {
+      "issue": "Overly formal word: \"notwithstanding\"",
+      "suggestion": "Replace \"notwithstanding\" with simpler alternatives like \"despite or in spite of\"",
+      "type": "word_replacement"
+    },
+    {
+      "issue": "Overly formal word: \"endeavor\"",
+      "suggestion": "Replace \"endeavor\" with simpler alternatives like \"try or attempt\"",
+      "type": "word_replacement"
+    },
+    {
+      "issue": "Overly formal word: \"diminish\"",
+      "suggestion": "Replace \"diminish\" with simpler alternatives like \"reduce or decrease\"",
+      "type": "word_replacement"
+    },
+    {
+      "issue": "Overly formal word: \"mitigate\"",
+      "suggestion": "Replace \"mitigate\" with simpler alternatives like \"reduce or lessen\"",
+      "type": "word_replacement"
+    },
+    {
+      "issue": "Overly formal word: \"cognizant\"",
+      "suggestion": "Replace \"cognizant\" with simpler alternatives like \"aware or conscious\"",
+      "type": "word_replacement"
+    },
+    {
+      "issue": "Too many repetitive transitions like \"Furthermore\"",
+      "suggestion": "Use varied transition words or remove unnecessary ones",
+      "type": "transitions"
+    }
+  ]
+}
